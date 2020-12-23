@@ -19,30 +19,30 @@ void gmain() {
         clear(0);
         mathAxis(1.8);
         //â~
-        fill(160);
-        stroke(128);
-        strokeWeight(20);
+        fill(255, 232, 191);
+        stroke(255, 187, 66);
+        strokeWeight(40);
         mathCircle(0, 0, 2.6);
         //ï™
         deg = (minute * 6) + 6 * (second / 60.0f);
         x = sin(deg);
         y = cos(deg);
         strokeWeight(20);
-        stroke(60);
+        stroke(255, 197, 94);
         mathLine(0, 0, x, y);
         //éû
         deg = (hour * 30) + 30 * (minute / 60.0f);
         x = sin(deg) * 0.7;
         y = cos(deg) * 0.7;
         strokeWeight(25);
-        stroke(0);
+        stroke(255, 187, 66);
         mathLine(0, 0, x, y);
         //ïb
         deg = second * 6;
         x = sin(deg);
         y = cos(deg);
         strokeWeight(5);
-        stroke(120);
+        stroke(255, 209, 128);
         mathLine(0, 0, x, y);
         //ïbêjÇÃä€
         strokeWeight(30);
